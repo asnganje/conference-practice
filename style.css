@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-outline {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #030303;
+  padding: 15px;
+}
+
+.top-outline ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 30px;
+}
+
+ul a {
+  color: #d3d3d3;
+}
+
+.navUl {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 20px;
+  justify-content: space-around;
+}
